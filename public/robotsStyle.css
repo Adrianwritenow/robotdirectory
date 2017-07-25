@@ -1,0 +1,47 @@
+
+h1{
+text-align: center
+}
+
+.profileContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.robotProfile{
+  border: 1px solid grey;
+  width: 250px;
+  height: 250px;
+  padding:25px;
+  margin-bottom: 40px;
+
+}
+h2{
+  margin:0px;
+  margin-top: 10px;
+}
+img{
+  width: 200px;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.personalProfileContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.personalRobotProfile img{
+  border-radius: 100%;
+  border: 1px solid grey;
+  float: left;
+}
+span{
+  color:red;
+}

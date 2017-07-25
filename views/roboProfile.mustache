@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Robot HomePage</title>
+    <link rel="stylesheet" href="robotsStyle.css">
+  </head>
+  <body>
+    <h1>All these guys are robots</h1>
+    <div class = "personalProfileContainer">
+      <div class = 'personalRobotProfile'>
+        <img src = "{{avatar}}" alt = "{{name}}">
+        <h1>{{name}}</h1>
+          {{address.city}}, {{address.country}} | {{job}}
+          <br>
+          {{email}} | {{phone}}
+        <a href = "/"><br>Back</a>
+      </div>
+      <div class = 'roboEduSkill'>
+      <table>
+        <tr>
+          <td><strong>Education<strong></td>
+          <td>{{university}}</td>
+        </tr>
+        <tr>
+          <td>Skills</td>
+          <td>{{skills}}</td>
+        </tr>
+      </div>
+    </div>
+
+    </ul>
+  </body>
+</html>
