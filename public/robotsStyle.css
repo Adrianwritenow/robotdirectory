@@ -58,6 +58,12 @@ span{
   margin-left: 240px;
 }
 .roboEduSkill{
-  margin-left: -150px;
+  margin-left: -62px;
   padding: 20px;
+  
+}
+td, ul{
+  padding-left: 0px;
+  margin-bottom: -15px;
+
 }

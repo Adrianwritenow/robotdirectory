@@ -24,16 +24,17 @@
             {{ /university }}
             {{ ^university }}
             {{ /university }}
-
           </tr>
-          <tr>
-            <td><strong>Skills<strong></td>
-            <td>{{ skills }}</td>
-          </tr>
-      </table>
-      <a href = "/"><br>Back</a>
+        <tr>
+          <td><strong>Skills<strong></td>
+          <td><ul style="list-style-type:none">{{ #skills }}
+            <li>{{.}}</li>
+            {{ /skills }}
+          </td>
+            </ul>
+        </table>
+        <a href = "/"><br>Back</a>
       </div>
     </div>
-    </ul>
   </body>
 </html>
