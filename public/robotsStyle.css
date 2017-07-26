@@ -1,7 +1,4 @@
 
-h1{
-text-align: center
-}
 
 .profileContainer{
   display: flex;
@@ -29,19 +26,37 @@ img{
   margin-left: 20px;
   margin-top: -15px;
 }
+.personalRobotPage{
+  margin-left: 100px;
+
+}
 
 .personalProfileContainer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-top: 75px;
 }
+
 
 .personalRobotProfile img{
   border-radius: 100%;
   border: 1px solid grey;
   float: left;
+  padding: 2px;
+}
+.personalRobotProfile{
+  width: 600px;
+  height: 200px;
 }
 span{
   color:red;
+}
+.resumeBlock{
+  margin-left: 240px;
+}
+.roboEduSkill{
+  margin-left: -150px;
 }

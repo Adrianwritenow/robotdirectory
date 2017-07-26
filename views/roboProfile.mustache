@@ -5,16 +5,15 @@
     <title>Robot HomePage</title>
     <link rel="stylesheet" href="robotsStyle.css">
   </head>
-  <body>
-    <h1>All these guys are robots</h1>
+  <body class = "personalRobotPage">
     <div class = "personalProfileContainer">
       <div class = 'personalRobotProfile'>
         <img src = "{{avatar}}" alt = "{{name}}">
-        <h1>{{name}}</h1>
-          {{address.city}}, {{address.country}} | {{job}}
-          <br>
+        <div class = "resumeBlock">
+          <h1>{{name}}</h1>
+          {{address.city}}, {{address.country}} | {{job}} {{company}}
           {{email}} | {{phone}}
-        <a href = "/"><br>Back</a>
+        </div>
       </div>
       <div class = 'roboEduSkill'>
       <table>
@@ -23,9 +22,12 @@
           <td>{{university}}</td>
         </tr>
         <tr>
-          <td>Skills</td>
-          <td>{{skills}}</td>
+          <td><strong>Skills<strong></td>
+          <td>{{ skills }}</td>
         </tr>
+      </table>
+      <a href = "/"><br>Back</a>
+
       </div>
     </div>
 
